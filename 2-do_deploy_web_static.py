@@ -3,7 +3,7 @@
 Distributes an archive to your web servers using Fabric
 """
 
-from fabric.api import env, put, run, sudo
+from fabric.api import env, put, run
 from os.path import exists
 import os
 
