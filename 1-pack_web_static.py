@@ -18,4 +18,5 @@ def do_pack():
 
     if local("tar -cvzf {} web_static".format(path)).succeeded:
         return path
-
+    else:
+        return None
